@@ -47,7 +47,7 @@ namespace AdministrareAsociatie
         {
             denumire = textBox1.Text;
             IBAN = textBox2.Text;
-            Banca = textBox3.Test;
+            Banca = textBox3.Text;
 
             //contBancarCon.Insert(denumire, IBAN, Banca);
 
