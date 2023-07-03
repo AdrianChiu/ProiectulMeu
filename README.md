@@ -18,6 +18,7 @@ namespace AdministrareAsociatie
         string denumire;
         string IBAN;
         string Banca;
+        string Tara;
 
         Entity entity = Entity.GetObject();
         ContBancarCon contBancarCon = new ContBancarCon();
@@ -48,6 +49,7 @@ namespace AdministrareAsociatie
             denumire = textBox1.Text;
             IBAN = textBox2.Text;
             Banca = textBox3.Text;
+            Tara = = textBox4.Text;
 
             //contBancarCon.Insert(denumire, IBAN, Banca);
 
